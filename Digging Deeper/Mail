@@ -1,0 +1,3 @@
+- cung cấp các API hỗ trợ việc gửi mail 1 cách tiện lợi
+- cho phép làm việc với mail server qua SMTP, với các dịch vụ email như Mailgun, SparkPost, Amazon SES, MailTrap...
+- ví dụ: khi người dùng thanh toán xong đơn hàng, ta muốn gửi mail với nội dung là hóa đơn đã thanh toán.

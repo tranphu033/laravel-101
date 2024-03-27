@@ -1,0 +1,10 @@
+- là một class cung cấp các phương thức tập trung vào việc xử lý mảng dữ liệu một cách thuận tiện. Đặc biệt là làm API khi dữ liệu trả về từ database có sẵn kiểu là Collection
+- ví dụ:
+$users = User::all();
+// $users là một collection trả về từ model User
+
+$collection = collect(['name' => 'phu', 'age' => 22]);
+$value = $collection->get('name'); //phu
+
+$collection = collect([1, 2, 3]);
+$collection->count(); //3

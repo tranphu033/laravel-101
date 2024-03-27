@@ -1,0 +1,5 @@
+- định tuyến các Request của người dùng đến một function nào đó, hoặc một đoạn logic xử lý Request của người dùng.
+- ví dụ:
+Route::get('/welcome', function () {
+    echo 'Hello!!';
+})

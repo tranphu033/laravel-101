@@ -1,0 +1,4 @@
+- Blade là một templating engine đơn giản nhưng mạnh mẽ được cung cấp bởi Laravel.
+- Không như hầu hết các templating engine khác, Blade không giới hạn trong việc sử dụng mã PHP đơn giản trong View.
+- Tất cả các Blade View sẽ được biên dịch thành mã PHP và được lưu vào bộ đệm cho đến khi chúng được sửa đổi.
+- Các file Blade View có phần mở rộng là .blade.php.

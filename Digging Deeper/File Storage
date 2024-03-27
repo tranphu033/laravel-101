@@ -1,0 +1,2 @@
+- cung cấp giải pháp quản lý file (tạo, lấy thông tin, xóa, ...) hiệu quả
+- cung cấp các driver đơn giản để sử dụng với local filesystem, SFTP, Amazon S3.

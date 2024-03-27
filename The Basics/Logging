@@ -1,0 +1,3 @@
+- Để giúp ta biết có vấn đề gì đang xảy ra trong hệ thống, Laravel cung cấp các dịch vụ ghi log mạnh mẽ cho phép ta ghi log vào file, vào log hệ thống hoặc thậm chí là Slack để thông báo cho toàn bộ team
+- Không chỉ để giúp debug mà nó còn giúp ghi lại những lịch sử thực thi theo mong muốn
+- ví dụ: sử dụng khi muốn log lại lịch sử mua hàng của người dùng trong trang web bán hàng

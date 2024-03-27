@@ -1,0 +1,2 @@
+-  cho phép gửi thông báo cho máy khách khi có điều gì đó (event) xảy ra ở phía máy chủ.
+- ví dụ: giả sử ta triển khai ứng dụng nhắn tin cho phép người dùng trong hệ thống gửi tin nhắn cho nhau. Khi người dùng A gửi tin nhắn cho B, ta muốn thông báo cho người dùng B theo thời gian thực. Ta có thể hiển thị cửa sổ popup hoặc hộp cảnh báo thông báo cho người dùng B về tin nhắn mới.

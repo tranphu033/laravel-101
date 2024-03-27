@@ -1,0 +1,3 @@
+- cho phép tự động thực hiện các tác vụ trong ứng dụng theo một lịch trình được định trước. 
+-> giúp tăng cường hiệu suất và đảm bảo rằng các tác vụ được thực hiện đúng thời gian, giảm thiểu tối đa các sự cố và tránh tình trạng quá tải cho hệ thống.
+- ví dụ: gửi email hàng ngày, xóa các bản ghi cũ vào cuối tháng, cập nhật dữ liệu từ các nguồn bên ngoài 2 tiếng 1 lần, ...

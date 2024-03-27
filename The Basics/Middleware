@@ -1,0 +1,2 @@
+- cung cấp cơ chế để có thể lọc các request HTTP từ phía trình duyệt đến ứng dụng
+- ví dụ: khi người dùng click vào trang mua hàng, hệ thống sẽ kiểm tra xem đã tồn tại session/cookie user chưa (tức là đã đăng nhập hay chưa). Nếu đã đăng nhập thì tiếp tục cho request thực thi các bước tiếp theo, còn không thì redirect về trang login.

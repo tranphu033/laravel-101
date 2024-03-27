@@ -1,0 +1,2 @@
+- xử lý các request từ trình duyệt gửi lên, tương tác với Model để cập nhật dữ liệu hay lấy dữ liệu từ database và có thể đính kèm dữ liệu đó vào View để hiển thị trên trình duyệt phía người dùng
+- ví dụ: UseController chứa các function thực hiện hiển thị danh sách, thêm, sửa, xóa người dùng trong hệ thống

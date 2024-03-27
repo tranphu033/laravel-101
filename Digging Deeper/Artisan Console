@@ -1,0 +1,5 @@
+- Artisan là giao diện command-line đính kèm theo Laravel. 
+- Nó cung cấp một số lệnh hỗ trợ khi xây dựng ứng dụng. Đồng thời, nó cũng giúp giảm thời gian viết code và tự động hóa một số công việc khác.
+- ví dụ:
+>>php artisan route:list -->liệt kê các route trong ứng dụng
+>>php artisan make:controller <ControllerName> --> tạo controller có tên <ControllerName>

@@ -1,0 +1,3 @@
+- lưu trữ lại thông tin các request để các request tiếp theo có thể truy xuất thông tin được.
+- session trong laravel có thể được lưu trong file, database, cookie, redis,...
+- ví dụ: lưu thông tin những sản phẩm trong giỏ hàng của người dùng

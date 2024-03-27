@@ -1,0 +1,9 @@
+- Laravel tự động tạo ra một CSRF “token” cho mỗi phiên người dùng đang hoạt động do ứng dụng quản lý. 
+Token này dùng để xác minh rằng người dùng đã được chứng thực là người thực hiện yêu cầu cho ứng dụng.
+- Bất cứ khi nào sử dụng HTML form-> nên thêm một hidden field CSRF token vào trong form để CSRF middleware có thể xác nhận request.
+->có thể sử dụng csrf_field để sinh ra field này:
+
+<form method="POST" action="/profile">
+    {{ csrf_field() }}
+    ...
+</form>

@@ -1,0 +1,5 @@
+- cho phép đưa các tác vụ vào hàng đợi để xử lý một cách bất đồng bộ, giúp ứng dụng có thể xử lý các tác vụ mất nhiều thời gian mà không làm chậm hoạt động của ứng dụng
+- ví dụ: khi người dùng thực hiện thanh toán đơn hàng cần:
++ cập nhật tình trạng hóa đơn, lưu lại lịch sử mua hàng
++ gửi mail hóa đơn tới người dùng
+  Tác vụ gửi mail tốn nhiều thời gian nên để không phải đợi gửi mail xong mới thông báo thanh toán thành công thì ta sẽ đưa tác vụ này vào queue

@@ -1,0 +1,2 @@
+- Cache được hiểu là bộ nhớ đệm. Các dữ liệu được lưu trữ trong bộ nhớ cache là kết quả của những lần thao tác với trang web và dữ liệu trước đó. Nó cũng là bản sao dữ liệu được trữ ở nơi khác. 
+- Các truy vấn đến cơ sở dữ liệu có thể bị chậm nếu trang web có nhiều người truy cập vào cùng một thời điểm. Cache khi đó sẽ hoạt động với vai trò là trung gian để lưu trữ các dữ liệu ít khi hay không thay đổi giữa các request, giúp cải thiện hiệu năng trang web.

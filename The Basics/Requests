@@ -1,0 +1,5 @@
+- là một object chưa các thông tin liên quan đến HTTP request hiện tại. Dựa vào object này chúng ta có thể lấy được các thông tin như input, cookie, file,...
+- ví dụ:
+Route::get('/posts/{id}', function (Request $request) {
+    echo $request->id; // in ra id của bài post lấy từ trên URI
+});

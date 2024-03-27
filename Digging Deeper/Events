@@ -1,0 +1,3 @@
+- được sử dụng để thông báo về một hành động nào đó trong ứng dụng và cho phép các phần khác của ứng dụng đăng ký và phản ứng với sự kiện này.
+- sử dụng để giảm sự phụ thuộc giữa các thành phần trong ứng dụng. Thay vì phải gọi trực tiếp các thành phần khác trong ứng dụng, các thành phần này (listener) có thể đăng ký với sự kiện (event) và phản ứng với nó khi sự kiện được kích hoạt.
+- khi một người dùng thực hiện thanh toán hóa đơn mua hàng, ta có thể tạo một sự kiện "PaymentEvent". Các thành phần khác trong ứng dụng có thể đăng ký với sự kiện này và thực hiện một số hành động khi sự kiện được kích hoạt: gửi email xác nhận, lưu thông tin hóa đơn vào cơ sở dữ liệu, ...

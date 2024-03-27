@@ -1,0 +1,2 @@
+- xác thực dữ liệu người dùng gửi lên, thường là dữ liệu khi submit html form
+- ví dụ: khi đăng ký tài khoản trên website, người dùng nhập và gửi các thông tin như họ tên, email, số điên thoại, .... Khi đó server cần xác thực xem các thông tin này có đúng theo format hay nằm trong dải giá trị xác định không

@@ -1,0 +1,7 @@
+- là thông tin server trả về trình duyệt khi xử lý xong 1 Request mà trình duyệt gửi lên
+- ví dụ:
+Route::get('home', function () {
+    return response('Hello World', 200)
+        ->header('Content-Type', 'text/plain');
+});
+--> Response trả về chứa dữ liệu dạng chuỗi, có đính kèm thêm thông tin trong header

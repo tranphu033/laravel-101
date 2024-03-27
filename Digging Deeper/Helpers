@@ -1,0 +1,2 @@
+- là những hàm có thể gọi ở bất cứ đâu trong project, chúng giúp những công việc xử lí liên quan đến mảng, đối tượng, đường dẫn, chuỗi, URL ... trở nên dễ dàng và tiện lợi
+- ví dụ: hàm helper định dạng ngày tháng theo format "DD/MM/YYYY"
