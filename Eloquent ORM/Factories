@@ -1,3 +1,19 @@
-- giúp ta tạo nhiều dummy records trong table 1 cách nhanh chóng với số lượng lớn thay vì phải insert thủ công bằng tay
+- giúp ta tạo nhiều fake dât vào trong database 1 cách nhanh chóng với số lượng lớn thay vì phải insert thủ công bằng tay
 - ví dụ:
-
+//định nghĩa factory cho bảng users:
+$factory->define(App\Models\User::class, function (Faker $faker) {
+    return [
+        'login_id' => $faker->unique()->ean8,
+        'username' => $faker->username,
+        'password' => Hash::make(12345678),         
+        'email' => $faker->unique()->safeEmail,
+    ];
+});
+//tạo fake data cho bảng users với số lượng 100 bản ghi:
+class UserSeeder extends Seeder
+{
+    public function run()
+    {
+        factory(User::class, 100)->create();
+    }
+}

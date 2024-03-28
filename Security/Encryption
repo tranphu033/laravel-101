@@ -1,0 +1,7 @@
+- Encryption là quá trình chuyển đổi dữ liệu từ dạng thông thường sang dạng được mã hóa, giúp bảo vệ thông tin nhạy cảm của người dùng. Laravel cung cấp các phương thức mã hóa để giúp mã hóa dữ liệu dễ dàng và hiệu quả.
+- ví dụ:
+// Mã hóa một chuỗi dữ liệu
+$encryptedData = Crypt::encrypt('Hello world');
+
+// Giải mã chuỗi đã được mã hóa
+$decryptedData = Crypt::decrypt($encryptedData);

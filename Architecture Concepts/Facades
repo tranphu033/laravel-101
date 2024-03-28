@@ -1,0 +1,5 @@
+- Facade trong Laravel cung cấp cho một giao diện các phương thức "static" đơn giản dễ hiểu tới tính năng của các service trong Laravel như Auth, Mail, Notification,....
+- Ví dụ:
++ Facade Request liên quan tới dữ liệu người dùng gửi lên server
++ Facade Route dùng để định nghĩa các routes chứa URI và action tương ứng với URI đó
++ Facade DB cung cấp các phương thức tiện ích để thực hiện truy vấn database

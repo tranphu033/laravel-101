@@ -1,0 +1,8 @@
+- là việc biến đổi 1 chuỗi ký tự thành 1 giá trị cố định ngắn hơn hoặc 1 khóa đại diện cho chuỗi ban đầu.
+- ví dụ:
+
+public function update(Request $request) {
+    //...
+    $newPassword = Hash::make($request->newPassword); //tạo giá trị hash cho mật khẩu để tạo ra 1 chuỗi mới mà người dùng khó có thể đoán được mật khẩu thực tế là gì dựa trên chuỗi này
+    //...
+}

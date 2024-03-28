@@ -1,0 +1,19 @@
+- là trung tâm của việc khởi tạo tất cả các ứng dụng trong Laravel, các thành phần core sẽ được khởi tạo từ Service Provider.
+- ví dụ: 
+Trong file bootstrap/app.php:
+$app->singleton(
+    Illuminate\Contracts\Http\Kernel::class,
+    App\Http\Kernel::class
+);
+
+$app->singleton(
+    Illuminate\Contracts\Console\Kernel::class,
+    App\Console\Kernel::class
+);
+
+$app->singleton(
+    Illuminate\Contracts\Debug\ExceptionHandler::class,
+    App\Exceptions\Handler::class
+);
+
+-> thực hiện binding trực tiếp các service

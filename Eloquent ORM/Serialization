@@ -1,0 +1,8 @@
+- giúp convert model data thành array hoặc JSON để trả về khi sử dụng Eloquent để xây dựng API
+- ví dụ:
+
+$user = User::with('roles')->first();
+$user->toArray(); //chuyển data trả về từ truy vấn sang dạng mảng
+
+$user = User::find(1);
+$user->toJson(); //chuyển data trả về từ truy vấn sang dạng chuỗi JSON

@@ -1,0 +1,2 @@
+- là một tính năng quan trọng trong các ứng dụng web hiện đại để xác thực tính đúng đắn của thông tin người dùng và đảm bảo tính bảo mật của tài khoản người dùng. 
+- Trong Laravel, Email Verification được triển khai bằng cách gửi một email chứa mã xác nhận đến địa chỉ email của người dùng và yêu cầu người dùng xác thực email của họ bằng cách nhập mã xác nhận vào trong ứng dụng web. Sau khi xác thực thành công, tài khoản của người dùng sẽ được kích hoạt và họ có thể đăng nhập vào ứng dụng.

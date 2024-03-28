@@ -1,0 +1,10 @@
+**Quá trình request lifecycle:
+- Điểm bắt đầu của tất cả request là tệp public/index.php
+- Sau đó truy xuất một instance của ứng dụng từ bootstrap/app.php
+- Tiếp theo, request sẽ được xử lý bởi kernel. Tại đây, một mảng bootstrappers sẽ được chạy, tải các service providers cho ứng dụng
+- Service providers khởi động tất cả các components khác nhau của framework, như database, queue, validation và routing, ...
+- Laravel định tuyến request tới các routes đã được định nghĩa
+- Request được truyền qua các middleware để thực hiện kiểm tra quyền truy cập, chuyển đổi ngôn ngữ trong ứng dụng, ...
+- Nếu qua được middleware,  request được định tuyến tới một controller để thực hiện 1 hành động tương ứng với 1 function trong controller
+- Các dependencies của controller được tự động inject thông qua service container của Laravel
+- Controller xử lý request trả về response, và nó được xử lý và trả về cho client

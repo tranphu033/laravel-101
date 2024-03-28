@@ -1,0 +1,11 @@
+- giống như một kho lưu trữ, liên kết những t ta cần để chạy ứng dụng Laravel một cách trơn chu. Nói 1 cách khác, nó là nơi để quản lý các dependency và thực hiện dependency injection.
+- Service Container đi liền với 2 khái niệm Binding và Resolve:
++ Binding: Là thao tác đăng ký một class hay interface với Container.
++ Resolve: Là thao tác lấy ra một instance từ trong Container.
+
+- ví dụ:
+//đăng kí class FooService vào container với cái tên FooService:
+$this->app->bind('FooService', \App\Services\FooService::class);
+//thực hiện truy xuất (lấy ra instance cảu class):
+$fooService = $this->app->make('FooService');
+..........

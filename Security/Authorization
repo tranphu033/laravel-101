@@ -1,0 +1,2 @@
+- là hoạt động phân quyền, xác định chi tiết xem đối với hành động này thì người dùng đó được phép thực hiện hay không được phép.
+- ví dụ: đối với hành động ứng tuyển vào vị trí việc làm cụ thể thì ứng viên (người dùng có tài khoản) sẽ có quyền thực hiện, còn đối với khách vãng lai (người dùng chưa có tài khoản) sẽ không có quyền thực hiện.
