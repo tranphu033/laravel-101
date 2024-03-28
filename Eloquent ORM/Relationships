@@ -1,0 +1,14 @@
+- cho phép ta định nghĩa ra các mối quan hệ (relationship) giữa các model với nhau. Từ đó có thể query, làm việc với các model được định nghĩa quan hệ một cách đơn giản.
+
+- ví dụ: Một post sẽ có nhiều comment
+
+class Post extends Model
+{
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+}
+
++ $comments = Post::find(1)->comments;
+-> lấy ra các comment của bài post có id=1

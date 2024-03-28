@@ -1,0 +1,8 @@
+- Redis là một loại dự án store mã nguồn mở để lưu trữ các cặp dữ liệu theo kiểu key-value. Redis còn có tên gọi là server cấu trúc dữ liệu vì các khóa có thể chứa dữ liệu dạng strings, lists, hashes, sets và sorted sets.
+- Redis còn là hệ thống hỗ trợ caching data trên RAM, cho phép hỗ trợ đa dạng cấu trúc cơ sở dữ liệu, định kỳ sao lưu dữ liệu ra ổ đĩa cứng, sửa đổi, bổ sung dữ liệu đơn giản.
+
+- ví dụ:
+$redis = Redis::connection();
+$redis->set('foo', 'bar');
+$name = $redis->get('foo');
+echo $name; // bar

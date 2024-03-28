@@ -1,0 +1,23 @@
+- cung cấp một lớp chuyển đổi nằm giữa các Eloquent model và JSON responses để trả về cho người dùng. Laravel's resource classes cho phép chuyển đổi dễ dàng các model và model collections thành JSON.
+- ví dụ:
+
+class Product extends JsonResource
+{
+    public function toArray($request)
+    {
+        return [
+            'id' => $this->id,
+            'name' => $this->name,
+            'price' => $this->price,
+            'quantity' => $this->quantity,
+        ];
+        // trả về 1 mảng thuộc tính của đối tượng → được chuyển đổi thành JSON khi gửi phản hồi response. 
+    }
+}
++ sử dụng:
+Route::get('/product', function () {
+    return new ProductResource(Product::find(1));
+});
+
+
+

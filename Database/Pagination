@@ -1,0 +1,6 @@
+- là một class trong Laravel core, hỗ trợ phân trang dữ liệu được trả về trong Database (Query Builder, Elequent ORM) một cách đơn giản và linh hoạt
+
+- ví dụ:
+
+DB::table('users')->paginate(5);
+-> lấy tất cả bản ghi (người dùng) trong bảng users, phân trang thành 5 bản ghi mỗi trang

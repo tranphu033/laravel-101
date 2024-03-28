@@ -1,0 +1,19 @@
+- Seeder trong Laravel là class hỗ trợ ta tạo ra data test, thay đổi cập nhật dữ liệu khi cần thiết.
+- Mặc định, Laravel đã định nghĩa sẵn class DatabaseSeeder. Ta có thể sử dụng phương thức call để gọi các seeder khác khi cần thiết.
+- ví dụ:
+
+class UserSeeder extends Seeder {
+    public function run() {
+        DB::table('users')->insert([
+          ['name' => 'phu', 'email' => 'phu@gmail.com', 'password' => 'phu12345'],
+          ['name' => 'thoa', 'email' => 'thoa@gmail.com', 'password' => 'thoa12345']
+        ]);
+    }
+}
+
++ gọi seeder trong file DatabaseSeeder.php:
+class DatabaseSeeder extends Seeder {
+    public function run() {
+       $this->call([UserSeeder::class]);
+    }
+}

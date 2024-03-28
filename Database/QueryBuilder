@@ -1,0 +1,6 @@
+- là một class trong Laravel, cung cấp các phương thức để làm việc với database một cách thuận tiện hơn.
+- Class này sử dụng PDO parameter binding để thực thi các câu lệnh, điều này sẽ giúp cho ứng dụng tránh được các lỗi liên quan đến SQL injection.
+- ví dụ:
+
+DB::table('users')->where('id', '=', 1)->select('name')->get();
+-> lấy ra tên của người dùng có id=1 trong bảng "users"

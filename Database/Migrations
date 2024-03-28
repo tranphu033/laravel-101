@@ -1,0 +1,5 @@
+- Migration giống như một version control cho database, nó cho phép chúng ta định nghĩa ra các schema trong database và có thể chia sẻ đồng bộ lẫn nhau giữa các thành viên trong team.
+
+ví dụ: Khi cần thêm một column vào trong database, thì ta chỉ cần tạo thêm một file migration (thực hiện thêm việc thêm cột), sau đó migrate nó vào trong database, các thành viên khác cũng chỉ cần thực hiện migrate => cấu trúc database đồng bộ với nhau.
+
+
